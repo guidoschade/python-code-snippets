@@ -1,5 +1,5 @@
 
-# buble sort
+# bubble sort
 def bubbleSort(x):
     # getting number of elements
     n = len(x)
@@ -11,7 +11,7 @@ def bubbleSort(x):
             if x[j] > x[j+1]:
                 x[j], x[j+1] = x[j+1], x[j]
 
-  
+
 # example array
 numbers = [1, 99, 38, 5, 88, 23, 42, 16, 15, 8]
 
