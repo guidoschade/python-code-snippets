@@ -10,7 +10,7 @@ def main():
     threads.append(x)
     x.start()
 
-  # wait until all threads are comppleted
+  # wait until all threads are completed
   while True:
      time.sleep(1)
      nthreads = threading.active_count()
